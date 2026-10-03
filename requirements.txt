@@ -1,0 +1,27 @@
+# Core Framework & UI
+pandas==2.2.3
+streamlit==1.35.0
+altair==5.4.1
+
+# LangChain Ecosystem (~=0.3 keeps API stability while matching patches)
+langchain~=0.3.20
+langchain-core~=0.3.20
+langchain-community~=0.3.20
+langchain-groq~=0.2.1
+langgraph~=0.2.45
+
+# Neo4j Integration
+neo4j~=5.25.0
+langchain-neo4j~=0.2.0
+
+# Search & Tools
+tavily-python~=0.5.0
+langchain-tavily~=0.2.3
+beautifulsoup4==4.12.3
+lxml==5.3.0
+requests==2.32.3
+psycopg2-binary==2.9.10
+
+# Vectors & Embeddings
+faiss-cpu~=1.9.0
+sentence-transformers~=3.3.1
